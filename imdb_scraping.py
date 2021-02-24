@@ -41,7 +41,7 @@ for names in soup_title:
     film_name.append(names.text.strip())
     
   except:
-    #cekilen film ismi yoksa film_rating icine bos deger yolla
+    #cekilen film ismi yoksa film_name icine bos deger yolla
     film_name.append(np.NaN)
     
 
