@@ -120,6 +120,6 @@ df_all.head(3)
 #verinin csv olarak kaydedilmesi
 df_all.to_csv(r"imdb_data.csv",encoding="utf-8", index=False , mode="a")
 
-#df.to_csv(r"kitap_tavsiye_123.csv",encoding="utf-8", index=False , mode="a")
+#colab kullanıyorsanız veriyi indirme kodu
 from google.colab import files
 files.download('imdb_data.csv')
